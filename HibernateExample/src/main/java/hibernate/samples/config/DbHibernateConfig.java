@@ -19,7 +19,7 @@ public class DbHibernateConfig {
 		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		dataSource.setUrl("jdbc:mysql://localhost/db_test?autoReconnect=true&useSSL=false&serverTimezone=UTC");
 		dataSource.setUsername("root");
-		dataSource.setPassword("Shiwen27");
+		dataSource.setPassword("password");
 		
 		return dataSource;
 	}
