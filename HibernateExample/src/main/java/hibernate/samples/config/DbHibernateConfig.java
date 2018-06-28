@@ -35,7 +35,7 @@ public class DbHibernateConfig {
 //		auto strategies 1) Create- Always DROP and CREATE TABELE
 //						2) Validate - Validate your java model aganist Database TABLE
 //						3) UPDATE  - UPDATE TABELs
-		props.setProperty("hibernate.hbm2ddl.auto", "create");
+		props.setProperty("hibernate.hbm2ddl.auto", "validate");
 //		If different database uses different dialect needs to GOOGLE
 		props.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
 //		props.setProperty("hibernate.default_schema", dataSourceDefaultSchema);
